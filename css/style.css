@@ -1,0 +1,233 @@
+
+    *{
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    body {
+        background-color: rgb(207, 230, 245);
+        width: 828px;
+        height: 828px;
+        border: 2px solid black;
+        
+    }
+
+    .header {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 100px;
+        padding-left: 50px;
+        width: 728px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        display: flex;
+        justify-content: center;
+     }
+
+    .header h3{
+        padding-top: 20px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .header a {
+       display: flex;
+       justify-content: space-between;
+       padding-top: 20px;
+       margin-right: 60px;
+       color: red;
+       font-size: 13px;
+    }
+
+    .content {
+        margin: 0;
+        margin-left: 50px;
+        background-color: white;
+        width: 728px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        border-bottom: 546px;
+    }
+
+    .content .image {
+        margin-left: 60px;
+        height: 150px;
+        width: 60px;
+    }
+
+    .content .image .picture {
+        padding: 50px;
+        padding-left: 50px;
+        display: flex;
+        width: 100px;
+        height: 180px;
+    }
+
+    .name {
+        padding: 50px;
+        margin-left: 100px;
+        padding-left: 10px;
+        display: inline-block;
+        width: 282px;
+        height: 150px;
+        
+    }
+
+    .apple-juice{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+    }
+    .grape-juice{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+    }
+
+    .ml250 {
+        font-size: 15px;
+        color: gray;
+    }
+
+    .small-green {
+        height: 25px;
+        width: 25px;
+    }
+
+    .quantity {
+        padding: 90px;
+        padding-left: 10px;
+        display: flex;
+        width: 182px;
+        height: 150px;
+        justify-content: baseline;
+    }
+
+    .quantity .bi {
+       font-size: 24px;
+    }
+
+    .two {
+        font-size: 15px;
+        font-weight: 500;
+        margin: 0 15px;
+        margin-top: 5px;
+    }
+
+    .total {
+        padding: 50px;
+        padding-left: 10px;
+        display: block;
+        width: 182px;
+        height: 150px;
+        
+    }
+
+    .dollar {
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        
+
+    }
+
+    .total a {
+        font-size: 12px;
+    }
+    
+    .total a:nth-child(2) {
+        color: red;
+    }
+
+    .total a:nth-child(1) {
+        color: blue;
+    }
+
+    .footer {
+        padding: 15px;
+        margin-left: 50px;
+        padding-left: 10px;
+        display: inline-flex;
+        height: 50px;
+        background-color: white;
+        width: 728px;
+        border-top: 1.5px solid gray;
+
+    }
+
+    .summary-total {
+        font-size: 20px;
+        font-weight: 700;
+        display: block;
+        justify-content: end;
+        width: 536px;
+        margin-left: 450px;
+    }
+
+    .sub-total {
+        display: block;
+        justify-content: flex-end;
+        font-size: 20px;
+        font-weight: 700;
+
+    }
+
+    .total-items {
+        display: block;
+        justify-content: flex-end;
+        font-size: 15px;
+        font-weight: 500;
+        color: gray;
+
+
+    }
+
+    .total-value {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 30px;
+        font-weight: 700;
+        margin-right: 35px;
+
+    }
+
+    .button{
+        margin-left: 50px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        width: 728px;
+        background-color: white;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .button .button-icon {  
+        display: flex;
+        justify-content: end;
+        padding: 50px;
+        margin-right: 5px;
+
+    }
+
+    .button-icon button {
+        width: 364px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: skyblue;
+        font-size: 13px;
+        border: none;
+        border-radius: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
